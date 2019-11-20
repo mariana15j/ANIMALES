@@ -1,0 +1,28 @@
+body {
+    background-color: bisque;
+    color: black;
+}
+
+#miTitulo{
+    color: blueviolet;
+    font-size: 50px; 
+}
+
+.imagenes{
+    width: 350px;
+    height: 250px;
+    display: block
+}
+
+#miParrafo{
+    color: black;
+    font-size: 22px;
+}
+
+#miTitulo2{
+    color: brown;
+    font-size: 60px;
+}
+
+
+    
