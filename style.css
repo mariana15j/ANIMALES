@@ -5,24 +5,33 @@ body {
 
 #miTitulo{
     color: blueviolet;
-    font-size: 50px; 
+    font-size: 32px; 
 }
 
 .imagenes{
     width: 350px;
     height: 250px;
-    display: block
 }
 
 #miParrafo{
     color: black;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 #miTitulo2{
     color: brown;
-    font-size: 60px;
+    font-size: 50px;
+    text-align: center;
 }
 
+a:hover{
+    color: deeppink;
+    font-size: 20px;
+    font-style: italic;
+}
+
+img:hover{
+    width: 320px;
+}
 
     
