@@ -1,37 +1,66 @@
+*{
+    margin: auto;
+}
+
+p{
+    border: 20px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
 body {
     background-color: bisque;
+    text-align: center;
     color: black;
 }
 
 #miTitulo{
     color: blueviolet;
     font-size: 32px; 
+    background-color: rgb(243, 195, 178);
 }
 
 .imagenes{
     width: 350px;
     height: 250px;
+    margin-top: 20px;
 }
 
 #miParrafo{
     color: black;
     font-size: 20px;
+    border: 5px solid black;
+    padding: 5px;
+    margin: 5px;
 }
 
 #miTitulo2{
     color: brown;
     font-size: 50px;
     text-align: center;
+    padding: 20px;
+    background-color: rgb(243, 195, 178);
+}
+
+
+.hiper{
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 a:hover{
     color: deeppink;
     font-size: 20px;
     font-style: italic;
+    padding: 40px;
+
 }
 
 img:hover{
     width: 320px;
 }
 
+
+
+    
     
