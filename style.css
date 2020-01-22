@@ -60,7 +60,31 @@ img:hover{
     width: 320px;
 }
 
+#miImagen:hover{
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transform: rotateZ(90deg) scale(1.2);
+    filter: blur(1px)
+}
 
+#miImagen2:hover{
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    transform: rotateX(90deg) scale(1.2);
+    filter: brightness(2px)
+}
 
-    
+#miVideo:hover{
+    transition-duration: 2s;
+    transition-delay: initial;
+    transform: rotateY(90deg) scale(1.2);
+    filter: grayscale(2px)
+}
+
+#miTitulo3:hover{
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    transform: rotateX(90deg) scale(1.4);
+    filter: brightness(3px)
+}
     
