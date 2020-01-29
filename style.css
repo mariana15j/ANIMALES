@@ -87,4 +87,101 @@ img:hover{
     transform: rotateX(90deg) scale(1.4);
     filter: brightness(3px)
 }
-    
+
+
+#miParrafo{
+    animation-name: miAnimacion;
+    animation-duration: 300ms;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes miAnimacion{
+    0%{
+        transform: scale(.95,.95)
+    }
+
+    50%{
+        transform: rotateZ(1deg)
+    }
+
+    100%{
+       transform: translate(-5px,5px);
+       filter: contraste(200%);
+    }
+}
+
+#miImagen{
+    animation-name: miAnimacion2;
+    animation-duration: 2000ms;
+    animation-delay: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: initial;
+}
+
+@keyframes miAnimacion2{
+    0%{
+        transform: scale(.40,.40)
+    }
+
+    70%{
+        transform: rotateX(10deg)
+    }
+
+    100%{
+        transform: translateZ(20deg);
+        filter: blur(2px)
+    }
+}
+
+#miImagen2{
+    animation-name: miAnimacion3;
+    animation-duration: 1000ms;
+    animation-delay: 3s;
+    animation-timing-function: inherit;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes miAnimacion3{
+    0%{
+        transform: scale(.35,.35)
+    }
+
+    70%{
+        transform: rotateY(30deg)
+    }
+
+    100%{
+        transform: translateZ(20deg);
+        filter: brightness(3px)
+    }
+}
+
+#miVideo{
+    animation-name: miAnimacion4;
+    animation-duration: 500ms;
+    animation-delay: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: inherit;
+}
+
+@keyframes miAnimacion4{
+    0%{
+        transform: scale(.20,.20)
+    }
+
+    70%{
+        transform: rotateX(40deg)
+    }
+
+    100%{
+        transform: translateZ(30deg);
+        filter: brightness(5px)
+    }
+}
+}
